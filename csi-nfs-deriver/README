@@ -1,0 +1,10 @@
+csi-nfs-deriver v4.4.0
+
+  csi-nfs-controller
+          image: registry.k8s.io/sig-storage/csi-provisioner:v3.5.0
+          image: registry.k8s.io/sig-storage/csi-snapshotter:v6.2.2
+          image: registry.k8s.io/sig-storage/livenessprobe:v2.10.0
+          image: registry.k8s.io/sig-storage/nfsplugin:v4.4.0
+
+  csi-nfs-nodels
+          image: registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.8.0
