@@ -38,4 +38,15 @@ tomcat
   tomcat9-jdk8
 	image: tomcat:9.0.73-jdk8
 		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/tomcat:9.0.73-jdk8
-  
+
+------
+mysql
+  mysql/mysql-v5.7
+	image: mysql:5.7
+		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/mysql:5.7
+
+------
+prometheus-exporter
+  mysqld-exporter
+	image: prom/mysqld-exporter:v0.14.0
+		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/mysqld-exporter:v0.14.0
