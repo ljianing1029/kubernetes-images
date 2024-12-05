@@ -17,3 +17,8 @@ csi-nfs-deriver v4.4.0
   csi-nfs-nodels
         image: registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.8.0
 		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/csi-nfs-node-csi-node-driver-registrar:v2.8.0
+
+------
+  nfs-server
+	image: itsthenetwork/nfs-server-alpine:12
+		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/itsthenetwork-nfs-server-alpine:12
