@@ -41,12 +41,29 @@ tomcat
 
 ------
 mysql
-  mysql/mysql-v5.7
+  mysql
+    mysql-v5.7
 	image: mysql:5.7
 		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/mysql:5.7
 
 ------
-prometheus-exporter
-  mysqld-exporter
+monitoring-software
+  prometheus-exporter
+    mysqld-exporter
 	image: prom/mysqld-exporter:v0.14.0
 		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/mysqld-exporter:v0.14.0
+    cadvisior
+	image: gcr.io/cadvisor/cadvisor:v0.49.1
+		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/cadvisior:v0.49.1
+
+    node-exporter
+	image: quay.io/prometheus/node-exporter:v1.3.1
+		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/node-exporter:v1.3.1
+
+    kube-state-metrics
+	image: bitnami/kube-state-metrics:2.4.2
+		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/kube-state-metrics:2.4.2
+
+  prometheus-server
+	image: prom/prometheus:v2.37.1
+		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/prometheus-server:v2.37.1
