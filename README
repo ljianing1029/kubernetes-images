@@ -67,3 +67,7 @@ monitoring-software
   prometheus-server
 	image: prom/prometheus:v2.37.1
 		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/prometheus-server:v2.37.1
+
+------
+metrics-server
+	image: registry.k8s.io/metrics-server/metrics-server:v0.7.2
