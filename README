@@ -71,3 +71,4 @@ monitoring-software
 ------
 metrics-server
 	image: registry.k8s.io/metrics-server/metrics-server:v0.7.2
+		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/metrics-server:v0.7.2
