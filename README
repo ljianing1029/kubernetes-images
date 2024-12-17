@@ -53,8 +53,8 @@ monitoring-software
 	image: prom/mysqld-exporter:v0.14.0
 		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/mysqld-exporter:v0.14.0
     cadvisior
-	image: gcr.io/cadvisor/cadvisor:v0.49.1
-		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/cadvisior:v0.49.1
+	 image: gcr.io/cadvisor/cadvisor:v0.45.0
+		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/cadvisior:v0.45.0
 
     node-exporter
 	image: quay.io/prometheus/node-exporter:v1.3.1
