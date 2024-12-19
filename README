@@ -68,6 +68,14 @@ monitoring-software
 	image: prom/prometheus:v2.37.1
 		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/prometheus-server:v2.37.1
 
+  alertmanager
+	image: prom/alertmanager:v0.24.0
+		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/alertmanager:v0.24.0
+
+  grafana
+	image: grafana/grafana:7.5.10
+		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/grafana:7.5.10
+
 ------
 metrics-server
 	image: registry.k8s.io/metrics-server/metrics-server:v0.7.2
