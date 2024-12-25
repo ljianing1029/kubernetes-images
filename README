@@ -63,6 +63,12 @@ monitoring-software
     kube-state-metrics
 	image: bitnami/kube-state-metrics:2.4.2
 		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/kube-state-metrics:2.4.2
+    es-exporter
+	image: bitnami/elasticsearch-exporter:1.5.0-debian-11-r80
+		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/elasticsearch-exporter:1.5.0-debian-11-r80
+
+    kafka-exporter
+	image: bitnami/kafka-exporter:1.6.0-debian-11-r28
 
   prometheus-server
 	image: prom/prometheus:v2.37.1
@@ -80,3 +86,29 @@ monitoring-software
 metrics-server
 	image: registry.k8s.io/metrics-server/metrics-server:v0.7.2
 		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/metrics-server:v0.7.2
+
+------
+elk
+  elasticseach
+	image: elasticsearch:7.17.7
+		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/elasticsearch:7.17.7
+  logstash
+	image: logstash:7.17.7
+		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/logstash:7.17.7
+
+  kibana
+	image: kibana:7.17.7
+		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/kibana:7.17.7	
+
+  filebeat
+	image: docker.elastic.co/beats/filebeat:7.17.7
+		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/filebeat:7.17.7
+
+------
+  zookeeper
+	image: zookeeper:3.6.3
+
+
+------
+  kafka
+	image: bitnami/kafka:3.2.3
