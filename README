@@ -69,6 +69,7 @@ monitoring-software
 
     kafka-exporter
 	image: bitnami/kafka-exporter:1.6.0-debian-11-r28
+		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/kafka-exporter:1.6.0-debian-11-r28
 
   prometheus-server
 	image: prom/prometheus:v2.37.1
@@ -107,8 +108,9 @@ elk
 ------
   zookeeper
 	image: zookeeper:3.6.3
-
+		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/zookeeper:3.6.3
 
 ------
   kafka
 	image: bitnami/kafka:3.2.3
+		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/kafka:3.2.3
