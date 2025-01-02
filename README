@@ -114,3 +114,21 @@ elk
   kafka
 	image: bitnami/kafka:3.2.3
 		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/kafka:3.2.3
+
+------
+ci-cd
+  gitlab
+  	image: sameersbn/gitlab:17.3.1
+
+
+  postgresq
+	image: sameersbn/postgresql:14-20230628
+
+
+  redis
+	image: redis:6.2
+
+
+  jenkins
+	image: jenkins/jenkins:jdk17
+
