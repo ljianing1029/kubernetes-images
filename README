@@ -133,3 +133,7 @@ ci-cd
 	image: jenkins/jenkins:jdk17
 		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/jenkins:jdk17
 
+------
+base-images
+	image: alpine:3.21
+		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/alpine:3.21
