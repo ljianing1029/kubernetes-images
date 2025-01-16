@@ -137,3 +137,6 @@ ci-cd
 base-images
 	image: alpine:3.21
 		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/alpine:3.21
+
+        image: ubuntu:22.04
+                registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/ubuntu:22.04
