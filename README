@@ -145,3 +145,7 @@ base-images
 coredns
 	image: registry.k8s.io/coredns/coredns:v1.11.3
 		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/coredns:v1.11.3
+
+        image: registry.k8s.io/coredns/coredns:v1.11.1
+                registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/coredns:v1.11.1
+
