@@ -140,3 +140,8 @@ base-images
 
         image: ubuntu:22.04
                 registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/ubuntu:22.04
+
+------
+coredns
+	image: registry.k8s.io/coredns/coredns:v1.11.3
+		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/coredns:v1.11.3
