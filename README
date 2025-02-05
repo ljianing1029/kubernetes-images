@@ -135,11 +135,17 @@ ci-cd
 
 ------
 base-images
+  alpine
 	image: alpine:3.21
 		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/alpine:3.21
 
+  ubuntu
         image: ubuntu:22.04
                 registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/ubuntu:22.04
+
+  busybox
+	image: busybox:1.37
+		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/busybox:1.37
 
 ------
 coredns
