@@ -140,7 +140,9 @@ ci-cd
 	image: maven:3.8-openjdk-11-slim
 		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/maven:3.8-openjdk-11-slim
 
-
+  kaniko
+	image: gcr.io/kaniko-project/executor:v1.23.2
+		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/kaniko-executor:v1.23.2
 ------
 base-images
   alpine
