@@ -137,7 +137,7 @@ ci-cd
 		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/jenkins-inbound-agent:3283.v92c105e0f819-4
 
   maven
-	image: docker.io/library/maven:3.8-openjdk-11-slim
+	image: maven:3.8-openjdk-11-slim
 		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/maven:3.8-openjdk-11-slim
 
 
