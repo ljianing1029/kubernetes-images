@@ -168,3 +168,7 @@ coredns
         image: registry.k8s.io/coredns/coredns:v1.11.1
                 registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/coredns:v1.11.1
 
+------
+jdk
+	image: eclipse-temurin:11-jdk-alpine
+		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/eclipse-temurin:11-jdk-alpine
