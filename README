@@ -143,6 +143,9 @@ ci-cd
   kaniko
 	image: gcr.io/kaniko-project/executor:v1.23.2
 		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/kaniko-executor:v1.23.2
+
+	image: gcr.io/kaniko-project/executor:v1.23.2-debug
+		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/kaniko-executor:v1.23.2-debug
 ------
 base-images
   alpine
