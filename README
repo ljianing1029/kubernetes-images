@@ -172,3 +172,8 @@ coredns
 jdk
 	image: eclipse-temurin:11-jdk-alpine
 		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/eclipse-temurin:11-jdk-alpine
+
+------
+nexus3
+	image: docker.io/sonatype/nexus3:3.68.1
+		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/:sonatype-nexus3:3.68.1
