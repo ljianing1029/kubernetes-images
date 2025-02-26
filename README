@@ -176,4 +176,4 @@ jdk
 ------
 nexus3
 	image: docker.io/sonatype/nexus3:3.68.1
-		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/:sonatype-nexus3:3.68.1
+		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/sonatype-nexus3:3.68.1
