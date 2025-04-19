@@ -1,0 +1,1 @@
+From sonarqube:lts
