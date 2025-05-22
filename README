@@ -186,3 +186,8 @@ jdk
 nexus3
 	image: docker.io/sonatype/nexus3:3.68.1
 		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/sonatype-nexus3:3.68.1
+
+------
+minio
+	image: minio/minio:RELEASE.2025-04-22T22-12-26Z
+		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/minio:RELEASE.2025-04-22T22-12-26Z
