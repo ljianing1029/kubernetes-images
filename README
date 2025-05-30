@@ -191,3 +191,11 @@ nexus3
 minio
 	image: minio/minio:RELEASE.2025-04-22T22-12-26Z
 		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/minio:RELEASE.2025-04-22T22-12-26Z
+
+------
+velero
+  velero
+	image: registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/velero:v1.16.0
+
+  velero-plugin-for-aws
+	image: registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/velero-plugin-for-aws:v1.10.0
