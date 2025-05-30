@@ -195,7 +195,9 @@ minio
 ------
 velero
   velero
-	image: registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/velero:v1.16.0
+	image: velero/velero:v1.16.0
+		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/velero:v1.16.0
 
   velero-plugin-for-aws
-	image: registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/velero-plugin-for-aws:v1.10.0
+	image: velero/velero-plugin-for-aws:v1.10.0
+		registry.cn-hangzhou.aliyuncs.com/ljn-kubernetes-images/velero-plugin-for-aws:v1.10.0
